@@ -1,0 +1,14 @@
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\bin\Debug\ModuloAutenticacao.Desktop.exe.config
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\bin\Debug\ModuloAutenticacao.Desktop.exe
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\bin\Debug\ModuloAutenticacao.Desktop.pdb
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\bin\Debug\ModuloAutenticacao.Classes.dll
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\bin\Debug\ModuloAutenticacao.Classes.pdb
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.Properties.Resources.resources
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.TelaAutenticacao.resources
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.GenerateResource.cache
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.CopyComplete
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.exe
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.pdb
