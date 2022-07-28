@@ -12,3 +12,4 @@ C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Deskt
 C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.CopyComplete
 C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.exe
 C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.pdb
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.TelaCadUsuario.resources

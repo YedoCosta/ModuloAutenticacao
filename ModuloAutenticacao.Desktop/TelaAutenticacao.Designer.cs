@@ -62,6 +62,7 @@
             this.txtlogin.Name = "txtlogin";
             this.txtlogin.Size = new System.Drawing.Size(288, 23);
             this.txtlogin.TabIndex = 2;
+            this.txtlogin.TextChanged += new System.EventHandler(this.txtlogin_TextChanged);
             // 
             // txtsenha
             // 

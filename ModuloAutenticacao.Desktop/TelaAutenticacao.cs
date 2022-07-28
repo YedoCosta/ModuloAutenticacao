@@ -37,23 +37,16 @@ namespace ModuloAutenticacao.Desktop
             else
             {
                 MessageBox.Show($"seja bem vindo { usuario.Login}");
+                TelaCadUsuario tcu = new TelaCadUsuario();
+                tcu.Show();
             }
-            MessageBox.Show($"Seja bem vindo {usuario.Login} {usuario.Senha}");
-            //================
-            /*
-            if (txtlogin.Text == "Yedo" && txtsenha.Text == "1234")
-            {
-                //MessageBox.Show("Bem vindo ao Sistema");
-                Usuario usuario = new Usuario();
-                MessageBox.Show($"Seja bem vindo {usuario.Login} {usuario.Senha}");
+            
 
-            }
-            else
-            {
-                MessageBox.Show("Login ou Senha invalidos");
-            }
-            */
-            //===============
+        }
+
+        private void txtlogin_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
