@@ -68,6 +68,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="TelaAutenticacao.resx">
       <DependentUpon>TelaAutenticacao.cs</DependentUpon>
@@ -93,6 +94,12 @@
       <Project>{386a4b78-9df7-4ed6-bc13-e271e79d9b4c}</Project>
       <Name>ModuloAutenticacao.Classes</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caneca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto senai.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

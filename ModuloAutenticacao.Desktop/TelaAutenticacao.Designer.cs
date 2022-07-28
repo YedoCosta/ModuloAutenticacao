@@ -69,6 +69,7 @@
             this.txtsenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtsenha.Location = new System.Drawing.Point(252, 141);
             this.txtsenha.Name = "txtsenha";
+            this.txtsenha.PasswordChar = '*';
             this.txtsenha.Size = new System.Drawing.Size(288, 23);
             this.txtsenha.TabIndex = 3;
             // 

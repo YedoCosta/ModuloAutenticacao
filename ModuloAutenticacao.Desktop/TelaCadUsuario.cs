@@ -26,11 +26,43 @@ namespace ModuloAutenticacao.Desktop
         {
             txtId.Enabled = false;
             txtLogin.Enabled = false;
+            // MessageBox.Show("nome: " + txtNome.Text);
         }
 
         private void txtLogin_TextChanged(object sender, EventArgs e)
         {
            
+        }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSobrenome_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void txtSobrenome_Move(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtSobrenome_Enter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtSobrenome_Leave(object sender, EventArgs e)
+        {
+            txtLogin.Text = "O leave foi acionado";
+            txtLogin.BackColor = Color.Yellow;
+        }
+
+        private void txtNome_TextChanged(object sender, EventArgs e)
+        {
+         //   MessageBox.Show("nome: "+txtNome.Text);
         }
     }
 }
