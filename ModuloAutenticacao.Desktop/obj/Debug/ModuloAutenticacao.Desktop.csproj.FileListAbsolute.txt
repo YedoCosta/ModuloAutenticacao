@@ -13,3 +13,18 @@ C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Deskt
 C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.CopyComplete
 C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.exe
 C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.pdb
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\bin\Debug\ModuloAutenticacao.Desktop.exe.config
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\bin\Debug\ModuloAutenticacao.Desktop.exe
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\bin\Debug\ModuloAutenticacao.Desktop.pdb
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\bin\Debug\ModuloAutenticacao.Classes.dll
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\bin\Debug\ModuloAutenticacao.Classes.pdb
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.AssemblyReference.cache
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.SuggestedBindingRedirects.cache
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.Properties.Resources.resources
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.TelaAutenticacao.resources
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.TelaCadUsuario.resources
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.GenerateResource.cache
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.CopyComplete
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.exe
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.pdb
