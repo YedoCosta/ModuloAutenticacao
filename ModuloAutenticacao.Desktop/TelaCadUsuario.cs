@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ModuloAutenticacao.Desktop
 {
     public partial class TelaCadUsuario : Form
@@ -44,16 +45,6 @@ namespace ModuloAutenticacao.Desktop
            
         }
 
-        private void txtSobrenome_Move(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void txtSobrenome_Enter(object sender, EventArgs e)
-        {
-            
-        }
-
         private void txtSobrenome_Leave(object sender, EventArgs e)
         {
 
@@ -61,21 +52,19 @@ namespace ModuloAutenticacao.Desktop
             int startIndex = 5;
             int length = 2;
             String substring = txtNome.Text.Substring(startIndex, length);
-            Console.WriteLine(substring);
-            //=================== neste construtor eu mostro cada nome
-            string s = txtNome.Text;
-            string[] subs = s.Split();
+            //Console.WriteLine(substring);
+            //=================== neste pego o primeiro nome do Nome
+            string[] subsN = txtNome.Text.Split();
+            String nome = subsN[0].ToLower();
+            //=================== neste  eu  pego o ultimo nome do Sobrenome
+            string[] subs = txtSobrenome.Text.Split();
             foreach (string sub in subs)
             {
-            //  MessageBox.Show($"Substring: {sub}");
-                substring = sub;
+                substring = sub.ToLower();
             }
             //===================
-            txtLogin.Text = "O leave foi acionado";
-           
-            String plinha = String.Empty;
-            txtLogin.Text = substring;
-
+            //txtLogin.Text = "O leave foi acionado";
+            txtLogin.Text = $"{nome}.{substring}";
             txtLogin.BackColor = Color.Yellow;
         }
 
@@ -89,9 +78,17 @@ namespace ModuloAutenticacao.Desktop
             this.Close();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void txtConfSenha_Leave(object sender, EventArgs e)
         {
-
+            if (String.Compare(txtConfSenha.Text, txtSenha.Text) != 0) 
+            {
+                //Console.WriteLine($"Both strings have diferent value.");
+                MessageBox.Show("Confirmação de Senha diferente de Senha. Tente novamente...");
+                txtSenha.Text = "";
+                txtConfSenha.Text = "";
+                txtSenha.Focus();
+            }
+                
         }
     }
 }

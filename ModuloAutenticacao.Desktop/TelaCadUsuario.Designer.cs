@@ -117,9 +117,7 @@
             this.txtSobrenome.TabIndex = 6;
             this.txtSobrenome.FontChanged += new System.EventHandler(this.txtId_TextChanged);
             this.txtSobrenome.TextChanged += new System.EventHandler(this.txtSobrenome_TextChanged);
-            this.txtSobrenome.Enter += new System.EventHandler(this.txtSobrenome_Enter);
             this.txtSobrenome.Leave += new System.EventHandler(this.txtSobrenome_Leave);
-            this.txtSobrenome.Move += new System.EventHandler(this.txtSobrenome_Move);
             // 
             // txtLogin
             // 
@@ -157,6 +155,7 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(199, 22);
             this.txtSenha.TabIndex = 9;
+            this.txtSenha.UseSystemPasswordChar = true;
             // 
             // pictureBox1
             // 
@@ -204,7 +203,8 @@
             this.txtConfSenha.Name = "txtConfSenha";
             this.txtConfSenha.Size = new System.Drawing.Size(199, 22);
             this.txtConfSenha.TabIndex = 11;
-            this.txtConfSenha.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtConfSenha.UseSystemPasswordChar = true;
+            this.txtConfSenha.Leave += new System.EventHandler(this.txtConfSenha_Leave);
             // 
             // button2
             // 
