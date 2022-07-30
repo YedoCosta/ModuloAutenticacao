@@ -39,13 +39,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.Senha = new System.Windows.Forms.Label();
             this.txtSenha = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtConfSenha = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.btnsaircadu = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -157,15 +157,6 @@
             this.txtSenha.TabIndex = 9;
             this.txtSenha.UseSystemPasswordChar = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ModuloAutenticacao.Desktop.Properties.Resources.foto_senai;
-            this.pictureBox1.Location = new System.Drawing.Point(310, 41);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(120, 49);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -226,6 +217,15 @@
             this.btnsaircadu.Text = "Sair";
             this.btnsaircadu.UseVisualStyleBackColor = true;
             this.btnsaircadu.Click += new System.EventHandler(this.btnsaircadu_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ModuloAutenticacao.Desktop.Properties.Resources.senaiAzul;
+            this.pictureBox1.Location = new System.Drawing.Point(203, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(303, 59);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
             // 
             // TelaCadUsuario
             // 
