@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -55,13 +56,32 @@ namespace ModuloAutenticacao.Classes
 
             return "dados inseridos com sucesso";
         }
-        public void Pesquisar()
+        //public void Pesquisar()
+        //public DataTable ListarResponsabilidades(MySqlConnection conexao)
+        public DataTable Pesquisar()
         {
-          //  return "você vai Pesquisar";
+            //  return "você vai Pesquisar";
+            Conexao.MinhaInstancia.Open();
+            SqlCommand comando = Conexao.MinhaInstancia.CreateCommand();
+            comando.CommandType = CommandType.Text;
+            comando.CommandText = "SELECT * FROM Nivel";
+            DataTable dataTable = new DataTable();
+            SqlDataReader reader = comando.ExecuteReader();
+            dataTable.Load(reader);
+            Conexao.MinhaInstancia.Close();
+            return dataTable;
         }
         public void Deletar()
         {
             //return "você vai deletar";
+            Conexao.MinhaInstancia.Open();
+            SqlCommand comando = Conexao.MinhaInstancia.CreateCommand();
+            comando.CommandType = CommandType.Text;
+            comando.CommandText = "SELECT * FROM Nivel";
+            DataTable dataTable = new DataTable();
+            SqlDataReader reader = comando.ExecuteReader();
+            dataTable.Load(reader);
+            Conexao.MinhaInstancia.Close();
         }
 
 
