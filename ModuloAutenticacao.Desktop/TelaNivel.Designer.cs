@@ -30,8 +30,8 @@
         {
             this.lblId = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnNome = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.dgvNivel = new System.Windows.Forms.DataGridView();
             this.btnInserir = new System.Windows.Forms.Button();
@@ -61,21 +61,21 @@
             this.lblNome.TabIndex = 1;
             this.lblNome.Text = "Nome";
             // 
-            // textBox1
+            // txtId
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(179, 66);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(388, 23);
-            this.textBox1.TabIndex = 2;
+            this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtId.Location = new System.Drawing.Point(179, 66);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(388, 23);
+            this.txtId.TabIndex = 2;
             // 
-            // btnNome
+            // txtNome
             // 
-            this.btnNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNome.Location = new System.Drawing.Point(179, 133);
-            this.btnNome.Name = "btnNome";
-            this.btnNome.Size = new System.Drawing.Size(388, 23);
-            this.btnNome.TabIndex = 3;
+            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Location = new System.Drawing.Point(179, 133);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(388, 23);
+            this.txtNome.TabIndex = 3;
             // 
             // btnCadastrar
             // 
@@ -137,6 +137,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnPesquisar);
             this.Controls.Add(this.btnDeletar);
@@ -144,8 +145,8 @@
             this.Controls.Add(this.btnInserir);
             this.Controls.Add(this.dgvNivel);
             this.Controls.Add(this.btnCadastrar);
-            this.Controls.Add(this.btnNome);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.lblId);
             this.Name = "TelaNivel";
@@ -161,8 +162,8 @@
 
         private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.Label lblNome;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox btnNome;
+        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.DataGridView dgvNivel;
         private System.Windows.Forms.Button btnInserir;

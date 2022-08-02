@@ -32,7 +32,7 @@ namespace ModuloAutenticacao.Desktop
         private void btnInserir_Click(object sender, EventArgs e)
         {
             NivelDAO nivel = new NivelDAO();
-            MessageBox.Show(nivel.Inserir(btnNome.Text));
+            MessageBox.Show(nivel.Inserir(txtNome.Text));
         }
     }
 }
