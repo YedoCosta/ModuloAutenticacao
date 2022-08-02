@@ -28,3 +28,4 @@ C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloA
 C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.csproj.CopyComplete
 C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.exe
 C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.pdb
+C:\Users\Aluno\Documents\VS Comunity\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.TelaNivel.resources
