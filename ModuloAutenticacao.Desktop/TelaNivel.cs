@@ -34,5 +34,15 @@ namespace ModuloAutenticacao.Desktop
             NivelDAO nivel = new NivelDAO();
             MessageBox.Show(nivel.Inserir(txtNome.Text));
         }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDeletar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
