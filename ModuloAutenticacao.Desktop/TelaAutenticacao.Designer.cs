@@ -42,7 +42,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(221, 130);
+            this.label1.Location = new System.Drawing.Point(153, 130);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 16);
             this.label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(221, 169);
+            this.label2.Location = new System.Drawing.Point(153, 169);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 16);
             this.label2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // txtlogin
             // 
             this.txtlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtlogin.Location = new System.Drawing.Point(272, 130);
+            this.txtlogin.Location = new System.Drawing.Point(204, 130);
             this.txtlogin.Name = "txtlogin";
             this.txtlogin.Size = new System.Drawing.Size(255, 22);
             this.txtlogin.TabIndex = 2;
@@ -70,7 +70,7 @@
             // txtsenha
             // 
             this.txtsenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsenha.Location = new System.Drawing.Point(272, 162);
+            this.txtsenha.Location = new System.Drawing.Point(204, 162);
             this.txtsenha.Name = "txtsenha";
             this.txtsenha.PasswordChar = '*';
             this.txtsenha.Size = new System.Drawing.Size(255, 22);
@@ -79,7 +79,7 @@
             // btnentrar
             // 
             this.btnentrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnentrar.Location = new System.Drawing.Point(272, 206);
+            this.btnentrar.Location = new System.Drawing.Point(204, 206);
             this.btnentrar.Name = "btnentrar";
             this.btnentrar.Size = new System.Drawing.Size(120, 23);
             this.btnentrar.TabIndex = 4;
@@ -90,7 +90,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(407, 206);
+            this.button1.Location = new System.Drawing.Point(339, 206);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 23);
             this.button1.TabIndex = 5;
@@ -101,7 +101,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ModuloAutenticacao.Desktop.Properties.Resources.senaiAzul;
-            this.pictureBox1.Location = new System.Drawing.Point(224, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(156, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(303, 59);
             this.pictureBox1.TabIndex = 13;
@@ -112,7 +112,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(758, 337);
+            this.ClientSize = new System.Drawing.Size(611, 286);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);

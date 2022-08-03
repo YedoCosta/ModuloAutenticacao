@@ -14,7 +14,8 @@ namespace ModuloAutenticacao.Classes
     {
         public string Inserir(string nome) 
         {
-            //Abrindo a conexão com o banco
+            // ============= INSERINDO DADOS FUNCIONANDO OK ==================
+            //Abrindo a conexão com o banco 
             Conexao.MinhaInstancia.Open();
             //Definindo o comando
             SqlCommand comando = Conexao.MinhaInstancia.CreateCommand();
@@ -32,6 +33,7 @@ namespace ModuloAutenticacao.Classes
             Conexao.MinhaInstancia.Close();
 
             return "dados inseridos com sucesso";
+
         }
         public string Alterar(int[] id, string[] nome)
         {
@@ -56,20 +58,23 @@ namespace ModuloAutenticacao.Classes
 
             return "dados inseridos com sucesso";
         }
-        //public void Pesquisar()
-        //public DataTable ListarResponsabilidades(MySqlConnection conexao)
+
+        //public string Pesquisar()
         public DataTable Pesquisar()
         {
-            //  return "você vai Pesquisar";
+            /*  public DataTable Pesquisar()
+             *  return "você vai Pesquisar"; */
             Conexao.MinhaInstancia.Open();
             SqlCommand comando = Conexao.MinhaInstancia.CreateCommand();
             comando.CommandType = CommandType.Text;
             comando.CommandText = "SELECT * FROM Nivel";
+
+            // DataTable cria o objeto dataTable - Banco de dados na memória
             DataTable dataTable = new DataTable();
             SqlDataReader reader = comando.ExecuteReader();
             dataTable.Load(reader);
             Conexao.MinhaInstancia.Close();
-            return dataTable;
+            return dataTable; 
         }
         public void Deletar()
         {

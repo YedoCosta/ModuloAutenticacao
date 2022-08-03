@@ -232,7 +232,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(737, 481);
+            this.ClientSize = new System.Drawing.Size(703, 438);
             this.ControlBox = false;
             this.Controls.Add(this.btnsaircadu);
             this.Controls.Add(this.button2);

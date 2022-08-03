@@ -32,7 +32,6 @@
             this.lblNome = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.btnCadastrar = new System.Windows.Forms.Button();
             this.dgvNivel = new System.Windows.Forms.DataGridView();
             this.btnInserir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
@@ -45,7 +44,7 @@
             // 
             this.lblId.AutoSize = true;
             this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblId.Location = new System.Drawing.Point(129, 73);
+            this.lblId.Location = new System.Drawing.Point(204, 89);
             this.lblId.Name = "lblId";
             this.lblId.Size = new System.Drawing.Size(21, 17);
             this.lblId.TabIndex = 0;
@@ -55,7 +54,7 @@
             // 
             this.lblNome.AutoSize = true;
             this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(129, 136);
+            this.lblNome.Location = new System.Drawing.Point(204, 152);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(45, 17);
             this.lblNome.TabIndex = 1;
@@ -63,8 +62,9 @@
             // 
             // txtId
             // 
+            this.txtId.Enabled = false;
             this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtId.Location = new System.Drawing.Point(179, 66);
+            this.txtId.Location = new System.Drawing.Point(254, 82);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(388, 23);
             this.txtId.TabIndex = 2;
@@ -72,43 +72,34 @@
             // txtNome
             // 
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(179, 133);
+            this.txtNome.Location = new System.Drawing.Point(254, 149);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(388, 23);
             this.txtNome.TabIndex = 3;
-            // 
-            // btnCadastrar
-            // 
-            this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrar.Location = new System.Drawing.Point(567, 201);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
-            this.btnCadastrar.TabIndex = 4;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // dgvNivel
             // 
             this.dgvNivel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNivel.Location = new System.Drawing.Point(158, 246);
+            this.dgvNivel.Location = new System.Drawing.Point(285, 262);
             this.dgvNivel.Name = "dgvNivel";
-            this.dgvNivel.Size = new System.Drawing.Size(409, 143);
+            this.dgvNivel.Size = new System.Drawing.Size(316, 221);
             this.dgvNivel.TabIndex = 5;
             // 
             // btnInserir
             // 
-            this.btnInserir.Location = new System.Drawing.Point(129, 201);
+            this.btnInserir.Location = new System.Drawing.Point(243, 217);
             this.btnInserir.Name = "btnInserir";
             this.btnInserir.Size = new System.Drawing.Size(75, 23);
             this.btnInserir.TabIndex = 6;
             this.btnInserir.Text = "Inserir";
             this.btnInserir.UseVisualStyleBackColor = true;
             this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
+            this.btnInserir.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnInserir_MouseClick);
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(237, 201);
+            this.btnAlterar.Location = new System.Drawing.Point(351, 217);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(75, 23);
             this.btnAlterar.TabIndex = 7;
@@ -117,7 +108,7 @@
             // 
             // btnDeletar
             // 
-            this.btnDeletar.Location = new System.Drawing.Point(351, 201);
+            this.btnDeletar.Location = new System.Drawing.Point(465, 217);
             this.btnDeletar.Name = "btnDeletar";
             this.btnDeletar.Size = new System.Drawing.Size(75, 23);
             this.btnDeletar.TabIndex = 8;
@@ -127,7 +118,7 @@
             // 
             // btnPesquisar
             // 
-            this.btnPesquisar.Location = new System.Drawing.Point(456, 201);
+            this.btnPesquisar.Location = new System.Drawing.Point(570, 217);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(75, 23);
             this.btnPesquisar.TabIndex = 9;
@@ -140,18 +131,18 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(878, 506);
             this.Controls.Add(this.btnPesquisar);
             this.Controls.Add(this.btnDeletar);
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.btnInserir);
             this.Controls.Add(this.dgvNivel);
-            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.lblId);
             this.Name = "TelaNivel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaNivel";
             this.Load += new System.EventHandler(this.TelaNivel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNivel)).EndInit();
@@ -166,7 +157,6 @@
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.TextBox txtNome;
-        private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.DataGridView dgvNivel;
         private System.Windows.Forms.Button btnInserir;
         private System.Windows.Forms.Button btnAlterar;
