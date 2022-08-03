@@ -92,7 +92,7 @@
             this.btnInserir.Name = "btnInserir";
             this.btnInserir.Size = new System.Drawing.Size(75, 23);
             this.btnInserir.TabIndex = 6;
-            this.btnInserir.Text = "Inserir";
+            this.btnInserir.Text = "Cadastrar";
             this.btnInserir.UseVisualStyleBackColor = true;
             this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
             this.btnInserir.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnInserir_MouseClick);

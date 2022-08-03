@@ -17,27 +17,23 @@ namespace ModuloAutenticacao.Desktop
         {
             InitializeComponent();
         }
-
+        // Método TelaNivel_Load
         private void TelaNivel_Load(object sender, EventArgs e)
         {
             // NivelDAO nivel = new NivelDAO();
             // MessageBox.Show(nivel.Inserir(txtNome.Text));
             // NivelDAO np = new NivelDAO();
             // MessageBox.Show(np.Pesquisar());
-            CarregarResponsabilidades();
+            CarregarTabelaNive();
         }
 
-        private void btnCadastrar_Click(object sender, EventArgs e)
-        {
-          //  NivelDAO nivel = new NivelDAO();
-          //  MessageBox.Show(nivel.Inserir(txtNome.Text));
-        }
 
+        
         private void btnInserir_Click(object sender, EventArgs e)
         {
             NivelDAO nivel = new NivelDAO();
             MessageBox.Show(nivel.Inserir(txtNome.Text));
-            CarregarResponsabilidades();
+            CarregarTabelaNive();
 
         }
 
@@ -55,7 +51,8 @@ namespace ModuloAutenticacao.Desktop
 
         }
 
-        private void CarregarResponsabilidades()
+        // Método CarregarTabelaNivel
+        private void CarregarTabelaNive()
         {
             NivelDAO nivelPesquisa = new NivelDAO();
 
