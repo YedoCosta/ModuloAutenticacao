@@ -15,8 +15,8 @@ namespace ModuloAutenticacao.Classes
             { // abre chave do método get
                 if ( _conn == null )
                 { // chave do if - Conexão com SQLServero Server eu busco no conectar ao servidor SSMS (nome do servidor)
-                  //   _conn = new SqlConnection(@"Server = Lab206_4; Database = ProjetoEstoquev; Uid = sa; Pwd = teste*123;");
-                     _conn = new SqlConnection(@"Server = DESKTOP-TK1T5HD; Database = ProjetoEstoquev; Uid = sa; Pwd = teste*123;");
+                     _conn = new SqlConnection(@"Server = Lab206_4; Database = ProjetoEstoquev; Uid = sa; Pwd = teste*123;");
+                  //   _conn = new SqlConnection(@"Server = DESKTOP-TK1T5HD; Database = ProjetoEstoquev; Uid = sa; Pwd = teste*123;");
 
                 } // fecha chave do if
                 return _conn;

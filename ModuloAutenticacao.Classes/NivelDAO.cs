@@ -35,9 +35,10 @@ namespace ModuloAutenticacao.Classes
             return "dados inseridos com sucesso";
 
         }
-        public string Alterar(int[] id, string[] nome)
+        public string Alterar()
         {
-
+            return "dados alterado com sucesso";
+            /*
             //Abrindo a conexão com o banco
             Conexao.MinhaInstancia.Open();
             //Definindo o comando
@@ -55,15 +56,21 @@ namespace ModuloAutenticacao.Classes
             comando.ExecuteNonQuery();
 
             Conexao.MinhaInstancia.Close();
+            */
 
-            return "dados inseridos com sucesso";
         }
 
-        //public string Pesquisar()
+        // Sobrecarga de método-mesmo nome
+        // Overload
+        public string Pesquisar(string nome)
+        {
+            return $"Olá {nome}";
+        }
         public DataTable Pesquisar()
         {
-            /*  public DataTable Pesquisar()
-             *  return "você vai Pesquisar"; */
+            /*  
+             *  return "você vai Pesquisar"; 
+            */
             Conexao.MinhaInstancia.Open();
             SqlCommand comando = Conexao.MinhaInstancia.CreateCommand();
             comando.CommandType = CommandType.Text;
@@ -76,9 +83,25 @@ namespace ModuloAutenticacao.Classes
             Conexao.MinhaInstancia.Close();
             return dataTable; 
         }
-        public void Deletar()
+        //Pesquisar por nome
+        public DataTable PesquisarPorNome(string nome)
         {
-            //return "você vai deletar";
+            Conexao.MinhaInstancia.Open();
+            SqlCommand comando = Conexao.MinhaInstancia.CreateCommand();
+            comando.CommandType = CommandType.Text;
+            comando.CommandText = "SELECT * FROM Nivel WHERE Nome=@nome";
+            comando.Parameters.AddWithValue("@Nome",nome);
+            // DataTable cria o objeto dataTable - Banco de dados na memória
+            DataTable dataTable = new DataTable();
+            SqlDataReader reader = comando.ExecuteReader();
+            dataTable.Load(reader);
+            Conexao.MinhaInstancia.Close();
+            return dataTable;
+        }
+        public string Deletar()
+        {
+            return "você vai deletar";
+            /*
             Conexao.MinhaInstancia.Open();
             SqlCommand comando = Conexao.MinhaInstancia.CreateCommand();
             comando.CommandType = CommandType.Text;
@@ -87,10 +110,8 @@ namespace ModuloAutenticacao.Classes
             SqlDataReader reader = comando.ExecuteReader();
             dataTable.Load(reader);
             Conexao.MinhaInstancia.Close();
+            */
         }
-
-
-
 
     }
 }
