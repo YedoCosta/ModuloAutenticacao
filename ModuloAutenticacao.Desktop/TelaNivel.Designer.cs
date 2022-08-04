@@ -76,7 +76,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(388, 23);
             this.txtNome.TabIndex = 3;
-            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
+
             // 
             // dgvNivel
             // 
@@ -85,7 +85,7 @@
             this.dgvNivel.Name = "dgvNivel";
             this.dgvNivel.Size = new System.Drawing.Size(316, 221);
             this.dgvNivel.TabIndex = 5;
-            this.dgvNivel.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNivel_CellContentClick);
+
             this.dgvNivel.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvNivel_RowHeaderMouseClick);
             // 
             // btnInserir
@@ -97,7 +97,7 @@
             this.btnInserir.Text = "Cadastrar";
             this.btnInserir.UseVisualStyleBackColor = true;
             this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
-            this.btnInserir.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnInserir_MouseClick);
+
             // 
             // btnAlterar
             // 

@@ -17,10 +17,11 @@ namespace ModuloAutenticacao.Desktop
         {
             InitializeComponent();
         }
-        // Método TelaNivel_Load
+        //               =========== EVENTO TELA NIVEL  ============
         private void TelaNivel_Load(object sender, EventArgs e)
         {
             CarregarTabelaNive();
+ 
             // NivelDAO nivel = new NivelDAO();
             // MessageBox.Show(nivel.Inserir(txtNome.Text));
             //NivelDAO np = new NivelDAO();
@@ -33,56 +34,53 @@ namespace ModuloAutenticacao.Desktop
             //MessageBox.Show(pn.Pesquisar("jose"));
 
         }
-
+        //               =========== EVENTO INSERIR ============
         private void btnInserir_Click(object sender, EventArgs e)
         {
-            NivelDAO nivel = new NivelDAO();
-            MessageBox.Show(nivel.Inserir(txtNome.Text));
+            NivelDAO ni = new NivelDAO();
+            MessageBox.Show(ni.Inserir(txtNome.Text));
             CarregarTabelaNive();
-
         }
-
+        //               =========== EVENTO PESQUISAR POR NOME ============
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
-            NivelDAO pn = new NivelDAO();
-            dgvNivel.DataSource = pn.PesquisarPorNome(txtNome.Text);
-      
+            NivelDAO npn = new NivelDAO();
+            dgvNivel.DataSource = npn.PesquisarPorNome(txtNome.Text);
+
+            if (txtNome.Text.Equals(""))
+            {
+                CarregarTabelaNive();
+                txtId.Clear();
+            }
         }
+        //               =========== EVENTO ALTERAR ============
         private void btnAlterar_Click(object sender, EventArgs e)
         {
+          
             NivelDAO na = new NivelDAO();
-            MessageBox.Show(na.Alterar());
+            MessageBox.Show(na.Alterar(txtId.Text, txtNome.Text));
+            CarregarTabelaNive();
         }
+        //               =========== EVENTO DELETAR ============
         private void btnDeletar_Click(object sender, EventArgs e)
         {
             NivelDAO nd = new NivelDAO();
-            MessageBox.Show(nd.Deletar());
+            MessageBox.Show(nd.Deletar(txtId.Text));
+            CarregarTabelaNive();
         }
 
-        // Método CarregarTabelaNivel
+        //               =========== METODO CARREGAR TABELA NIVEL ============
         private void CarregarTabelaNive()
         {
             NivelDAO nivelPesquisa = new NivelDAO();
-
             dgvNivel.DataSource = nivelPesquisa.Pesquisar();
-        }
-
-        private void txtNome_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnInserir_MouseClick(object sender, MouseEventArgs e)
-        {
-            txtNome.Focus();
+            txtId.Clear();
             txtNome.Clear();
+            txtNome.Focus();
         }
 
-        private void dgvNivel_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
-
+        //               =========== EVENTO RECUPERAR DADOS DA LISTA CLICANDO ============
         private void dgvNivel_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             txtId.Text = dgvNivel.Rows[e.RowIndex].Cells[0].Value.ToString();
