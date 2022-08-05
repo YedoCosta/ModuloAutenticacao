@@ -44,7 +44,7 @@ namespace ModuloAutenticacao.Classes
         public string Alterar(string id, string nome)
         {
          
-             if (nome == "")
+             if (nome.Equals(""))
              {
                  return "Alteração invalida ...";
             }
